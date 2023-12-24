@@ -1,0 +1,65 @@
+.row{
+       display: flex;
+
+}
+.col{
+       height: 65px;
+       width: 65px;
+       border:1px solid black;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       font-size: 30px;
+       background-color: #fff;
+       border: 1px solid #ccc;
+       cursor: pointer;
+       transition: background-color 0.3s ease;
+       
+}
+body{
+       font-family: 'Courier New', Courier, monospace;
+       background-color: #f0f0f0;
+       align-items: center;
+       justify-content: center;
+     
+}
+.container{
+       align-items: center;
+}
+
+.col:hover {
+       background-color: #e0e0e0;
+   }
+
+
+
+
+   #end {
+       background: rgba(255,255,255,0.85);
+       position: fixed;
+       top: 0;
+       left: 0;
+       right: 0;
+       bottom: 0;
+       display: none;
+     }
+     
+     #message {
+       text-align: center;
+       font-size: 2rem;
+       line-height: 2.2rem;
+       font-weight: bold;
+     }
+     
+     #message::before {
+       content: "Tied game!"
+     }
+     
+     #message input {
+       background: #000;
+       color: #fff;
+       font-size: 1rem;
+       padding: 0.5rem 1.75rem;
+       margin: auto auto;
+       margin-top: 2rem;
+     }
