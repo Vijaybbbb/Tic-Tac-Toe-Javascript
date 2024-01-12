@@ -1,0 +1,118 @@
+body {
+       font-family: 'Courier New', Courier, monospace;
+       background-color: #f0f0f0;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       height: 100vh;
+       margin: 0;
+
+       background-image: url('colorful-2174045_1280\ \(1\).webp');
+       background-size: cover; /* Adjust as needed */
+       background-position: center; /* Adjust as needed */
+       background-repeat: no-repeat;
+   }
+   
+   .grid{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -webkit-text-stroke: 2px;
+}
+
+
+   .container {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+   }
+   
+   .row {
+       display: flex;
+   }
+   
+   .col {
+       height: 65px;
+       width: 65px;
+       border: 1px solid black;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       font-size: 30px;
+       background-color: #fff;
+       border: 1px solid #ccc;
+       cursor: pointer;
+       transition: background-color 0.3s ease;
+       margin: 5px;
+   }
+   
+   .col:hover {
+       background-color: #e0e0e0;
+   }
+   
+   #end {
+       background: rgba(255, 255, 255, 0.85);
+       display: none;
+       text-align: center;
+       justify-content: center;
+       
+
+   }
+   
+   #message {
+       text-align: center;
+       font-size: 2rem;
+       line-height: 2.2rem;
+       font-weight: bold;
+       justify-content: center;
+       display: block;
+   }
+   
+   
+   #message input {
+       background: #000;
+       color: #fff;
+       font-size: 1rem;
+       padding: 0.5rem 1.75rem;
+       margin: 2rem auto;
+   }
+   
+
+   
+
+   #end div {
+       text-align: center;
+   }
+
+   #h1 {
+       position: absolute;
+       top: 200px;
+   }
+   .btn{
+       position: absolute;
+       top: 217px;
+
+    
+   }
+
+
+   /* Button Styles */
+.styled-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #3498db; /* Border color */
+    color: #3498db; /* Text color */
+    background-color: #ffffff; /* Background color */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+/* Hover effect */
+.styled-button:hover {
+    background-color: #3498db;
+    color: #ffffff;
+    border-color: #ffffff;
+}
